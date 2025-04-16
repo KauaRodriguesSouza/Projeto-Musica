@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f0f4ff;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0a0f2d;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e2f56;
+}
+
+.link-header {
+    color: #f0f4ff;
+    font-size: 23px;
+    font-weight: 600;
+    margin: 10px;
+    text-decoration: none;
+}
+.link-header:hover {
+    color: #3fa9f5;
+    transition: all 0.4s;
+    text-decoration: underline;
+}
+
+
+#sobre-a-banda{
+    margin: auto;
+    width: 50vw ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#sobre-a-banda h1{
+    font-size: 45px;
+    margin: 20px;
+}
+#sobre-a-banda p{
+    font-size: 23px;
+    margin: 10px;
+}
+
+#Discografia {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.album {
+    text-align: center;
+    width: 430px;
+    height: 500px;
+    background-color: #1e2f56;
+    border-radius: 10px;
+}
+.album:hover {
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+.album img {
+    width: 370px;
+    height: 370px;
+    margin: 20px 0px 30px 0px;
+    border-radius: 8px;
+}
+.album p {
+    font-size: 25px;
+    color: #f0f4ff;
+}

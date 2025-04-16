@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f0f4ff;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0a0f2d;
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e2f56;
+}
+
+.link-header {
+    color: #f0f4ff;
+    font-size: 23px;
+    font-weight: 600;
+    margin: 10px;
+    text-decoration: none;
+}
+.link-header:hover {
+    color: #3fa9f5;
+    transition: all 0.4s;
+    text-decoration: underline;
+}
+
+#prin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+span {
+    color: #3fa9f5;
+    cursor: pointer;
+}
+span:hover {
+    color: white;
+}
+
+#musicas {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#musicas h1 {
+    color: #3fa9f5;
+    margin: 20px;
+}
+#musicas div {
+    display: flex;
+    font-size: 25px;
+    width: 40%;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #2c3e60;
+    align-items: center;
+    justify-content: space-between;
+}
+#musicas div:hover {
+    transform: scale(1.07);
+    transition: 0.4s;
+}
+
+#musicas a {
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 22px;
+    text-decoration: none;
+    background-color: #3fa9f5;
+    color: #0a0f2d;
+    font-weight: bold;
+}
+#musicas a:hover {
+    transition: 0.3s;
+    background-color: #66c3ff;
+    box-shadow: 0 0 8px #66c3ff, 0 0 16px #66c3ff;
+}
+
+#albuns {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.album {
+    text-align: center;
+    width: 430px;
+    height: 500px;
+    background-color: #1e2f56;
+    border-radius: 10px;
+}
+.album:hover {
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+.album img {
+    width: 370px;
+    height: 370px;
+    margin: 20px 0px 30px 0px;
+    border-radius: 8px;
+}
+.album p {
+    font-size: 25px;
+    color: #f0f4ff;
+}
+
+#galeria-de-fotos {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.imagem-galeria {
+    width: 300px;
+    height: 300px;
+    margin-right: 30px;
+}
+.imagem-galeria:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+#foto-1, #foto-2, #foto-3, #foto-4, #foto-5 {
+    border-radius: 20px;
+}
+#foto-1 {
+    filter: grayscale(100%);
+}
+#foto-2 {
+    filter: sepia(100%);
+}
+#foto-3 {
+    filter: brightness(30%);
+}
+#foto-5 {
+    filter: saturate(200%);
+}
+
+#comentario {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #0a0f2d;
+}
+
+.comentario-div {
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: #1e2f56;
+}
+.comentario-div h1 {
+    font-size: 50px;
+    margin: 20px;
+    color: white;
+}
+.comentario-div input,
+.comentario-div textarea {
+    font-size: 20px;
+    border: none;
+    width: 400px;
+    border-radius: 10px;
+    background-color: #0a0f2d;
+    color: #f0f4ff;
+    padding: 10px;
+    margin: 10px;
+}
+.comentario-div textarea {
+    height: 300px;
+}
+.comentario-div input {
+    height: 40px;
+}
+
+footer {
+    text-align: center;
+    color: #9fcfff;
+    padding: 20px;
+    background-color: #1e2f56;
+}
