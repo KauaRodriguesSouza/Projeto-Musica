@@ -64,6 +64,8 @@ header {
     text-align: center;
     width: 430px;
     height: 500px;
+    margin-top: 10px;
+    margin-top: 10px 0px 0px 0px;
     background-color: #1e2f56;
     border-radius: 10px;
 }
@@ -80,4 +82,14 @@ header {
 .album p {
     font-size: 25px;
     color: #f0f4ff;
+}
+
+
+
+footer {
+    text-align: center;
+    color: #9fcfff;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #1e2f56;
 }
